@@ -1,0 +1,32 @@
+.user-form {
+    background: darkseagreen;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.form-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-control {
+    flex: 0 0 40%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    font: inherit;
+}
