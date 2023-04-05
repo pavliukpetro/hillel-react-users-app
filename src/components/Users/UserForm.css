@@ -22,6 +22,10 @@ label {
     color: #fff;
 }
 
+label.error {
+    color: red;
+}
+
 input {
     padding: 0.5rem;
     border-radius: 6px;
@@ -29,4 +33,8 @@ input {
     width: 20rem;
     max-width: 100%;
     font: inherit;
+}
+
+input.error {
+    border-color: red;
 }

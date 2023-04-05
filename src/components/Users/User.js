@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import Card from '../UI/Card';
-import './User.css';
+import styles from './User.module.scss';
+
+console.log(styles);
 
 const User = (props) => {
     const [userName, setUserName] = useState(props.name);
@@ -12,8 +14,8 @@ const User = (props) => {
     }
 
     return (
-        <Card className="user-item">
-            <div className="user-item_id">{props.id}.</div>
+        <Card className={styles.userItem}>
+            <div className={styles.userItemId}>{props.id}.</div>
             <div className="user-item_name">{userName}</div>
             <div className="user-item_email">{props.email}</div>
             <button onClick={handleClick}>Click</button>
