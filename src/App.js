@@ -1,6 +1,7 @@
 import { useState } from 'react';
 // import './App.css';
 import './sass/app.scss';
+import Header from './components/UI/Header';
 import Users from './components/Users/Users';
 import UserForm from './components/Users/UserForm';
 
@@ -89,6 +90,8 @@ function App() {
 
   return (
     <div className="App">
+
+      <Header logo="ReactApp" />
 
       <UserForm onSaveUserForm={saveUserForm} />
 

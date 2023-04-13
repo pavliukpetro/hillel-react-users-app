@@ -1,0 +1,11 @@
+header {
+    background: lightblue;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+    list-style: none;
+}
