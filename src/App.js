@@ -78,6 +78,7 @@ const INIT_USERS = [
 
 function App() {
   const [users, setUsers] = useState(INIT_USERS);
+  console.log('init');
 
   function saveUserForm(newUser) {
     /**
